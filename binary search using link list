@@ -96,12 +96,12 @@ namespace TreeSort
         static void Main(string[] args)
         {
             Tree theTree = new Tree();
-            theTree.Insert(20);
-            theTree.Insert(25);
+            theTree.Insert(24);
+            theTree.Insert(28);
+            theTree.Insert(75);
             theTree.Insert(45);
-            theTree.Insert(15);
-            theTree.Insert(67);
-            theTree.Insert(43);
+            theTree.Insert(97);
+            theTree.Insert(3);
             theTree.Insert(80);
             theTree.Insert(33);
             theTree.Insert(67);
