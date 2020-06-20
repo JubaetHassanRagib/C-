@@ -12,10 +12,10 @@ namespace Program
     {
         public static void Main(String[] args)
         {
-            int p, lastInt = 0, input;
-            Console.WriteLine("Enter the Number of Rows : ");
-            input = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= input; i++)
+            int p, lastInt = 0, n;
+            Console.WriteLine("Enter the number of rows: ");
+            n= int.Parse(Console.ReadLine());
+            for (int i = 1; i <= n; i++)
             {
                 for (p = 1; p <= i; p++)
                 {
